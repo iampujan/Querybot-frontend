@@ -38,7 +38,7 @@ A modern React-based user interface for QueryBot, an AI-powered FAQ chat applica
 
    ```bash
    git clone https://github.com/iampujan/querybot-frontend.git
-   cd querybot-frontend/chatbot
+   cd querybot-frontend
    ```
 
 2. **Install dependencies:**
