@@ -22,7 +22,7 @@ const Chat: React.FC = () => {
     setInput("");
 
     try {
-      const response = await axios.post("http://localhost:8000", {
+      const response = await axios.post(import.meta.env.VITE_API_URL, {
         question: input,
       });
       const botMessage = response.data.answer;
