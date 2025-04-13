@@ -6,11 +6,33 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+.pnpm-debug.log*
 
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Directory for instrumented libs
+lib-cov
+
+# Coverage directory
+coverage
+*.lcov
+.nyc_output
+
+# Build outputs
 node_modules
 dist
 dist-ssr
-*.local
+.next
+out
+.nuxt
+build/Release
 
 # Editor directories and files
 .vscode/*
@@ -30,12 +52,29 @@ dist-ssr
 .env.test.local
 .env.production.local
 
-# Testing
-coverage
+# Cache directories
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.npm
+.eslintcache
+.stylelintcache
+.docusaurus
 
 # TypeScript
 *.tsbuildinfo
 
-# Optional: Package manager lock files (uncomment if you want to ignore)
-# yarn.lock
-# package-lock.json
+# Other
+.yarn/
+.dynamodb/
+.serverless/
+.fusebox/
+.tern-port
+.vscode-test
+.lock-wscript
+.node_repl_history
+*.tgz
+.yarn-integrity
